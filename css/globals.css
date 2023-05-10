@@ -1,0 +1,181 @@
+@font-face {
+  font-family: TestManuka;
+  src: url(/assets/fonts/TestManuka/TestManuka-Medium.otf) format("opentype");
+  font-weight: 600;
+  font-display: block;
+}
+@font-face {
+  font-family: TestManuka;
+  src: url(/assets/fonts/TestManuka/TestManuka-Bold.otf) format("opentype");
+  font-weight: 700;
+  font-display: block;
+}
+@font-face {
+  font-family: TestManuka;
+  src: url(/assets/fonts/TestManuka/TestManuka-Black.otf) format("opentype");
+  font-weight: 800;
+  font-display: block;
+}
+@font-face {
+  font-family: BaseNeue;
+  src: url(/assets/fonts/BaseNeue/BaseNeueTrial-Medium.otf) format("opentype");
+  font-weight: 500;
+  font-display: block;
+}
+@font-face {
+  font-family: BaseNeue;
+  src: url(/assets/fonts/BaseNeue/BaseNeueTrial-Medium.otf) format("opentype");
+  font-weight: 600;
+  font-display: block;
+}
+@font-face {
+  font-family: BaseNeue;
+  src: url(/assets/fonts/BaseNeue/BaseNeueTrial-Bold.otf) format("opentype");
+  font-weight: 700;
+  font-display: block;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: BaseNeue;
+}
+.manuka {
+  font-family: TestManuka;
+}
+.neue {
+  font-family: BaseNeue;
+}
+:root {
+  font-size: 10px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+}
+.deviants-app {
+  width: 100%;
+}
+section {
+  position: relative;
+  z-index: 10;
+}
+a {
+  text-decoration: none;
+}
+.box {
+  width: 100%;
+  max-width: 1500px;
+  padding: 0 5rem;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1.5rem;
+}
+.header-left {
+  width: 100%;
+}
+.header-left a img {
+  width: max-content;
+  height: 4rem;
+  object-fit: contain;
+}
+.header-right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-right-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-right-left a {
+  display: flex;
+  align-items: flex-end;
+  font-size: 3.25rem;
+  color: #9d9d9d;
+  transition: 0.35s;
+}
+.header-right-left a img {
+  width: 3.25rem;
+  margin: 0 1rem 0 0;
+  transition: 0.35s;
+}
+.header-right-left a:hover {
+  color: #fff;
+}
+.header-right-right a {
+  font-size: 1.1rem;
+  text-align: right;
+  color: #9d9d9d;
+  display: flex;
+  transition: 0.35s;
+}
+.header-right-right a:hover {
+  color: #fff;
+}
+.header-mob-icon {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .home-main-bg {
+    display: none;
+  }
+  .box {
+    padding: 0;
+  }
+  .home-main {
+    padding: 0;
+  }
+  header {
+    grid-template-columns: 200px 1fr;
+  }
+  .header-right-left {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header-right {
+    display: none;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    padding: 2rem 2rem;
+    background-color: rgba(11, 10, 10, 0.85);
+  }
+  .header-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+  }
+  .header-left a img {
+    height: 3.5rem;
+  }
+  .header-mob-icon span {
+    font-size: 3rem;
+    color: #fff;
+  }
+  .hmc-content img {
+    min-height: 60rem;
+  }
+  .header-mob-icon {
+    display: flex;
+  }
+}
