@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>S.DEVIANTS</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.0/swiper-bundle.min.css" integrity="sha512-wF3D+4OrUPUvdj1tzykEtIVe1dXB5N2uB0ONqkB47AoR3A1TNdPlbPKx9BPRorrZth3wzFuqdUlwuG0RBLK2og==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.0/swiper-bundle.min.css"
+      integrity="sha512-wF3D+4OrUPUvdj1tzykEtIVe1dXB5N2uB0ONqkB47AoR3A1TNdPlbPKx9BPRorrZth3wzFuqdUlwuG0RBLK2og=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/globals.css" />
     <link rel="stylesheet" href="css/home.css" />
-
   </head>
   <body>
     <main class="deviants-app">
@@ -22,19 +30,41 @@
         <div class="box">
           <section class="home-content-container">
             <header>
-              <div class="header-mob-icon">
-                <span class="material-symbols-outlined">
-                  menu
-                  </span>
+              <div
+                class="header-mob-icon header-menu-icon"
+                onclick="openHeader()"
+              >
+                <span class="material-symbols-outlined"> menu </span>
+              </div>
+              <div
+                class="header-mob-icon header-close-icon"
+                onclick="closeHeader()"
+              >
+                <span class="material-symbols-outlined"> close </span>
+              </div>
+              <div class="header-mob">
+                <a href="readers.html" class="manuka">
+                  <img src="assets/img/read-icon.svg" alt="read-icon" />
+                  READ
+                </a>
+                <a href="#" class="manuka">
+                  <img src="assets/img/create-icon.svg" alt="read-icon" />
+                  CREATE
+                </a>
+                <a href="#" class="manuka">
+                  <img src="assets/img/play-icon.svg" alt="read-icon" />
+                  PLAY
+                </a>
+                <a href="#">USER ACCOUNT STUFF HERE</a>
               </div>
               <div class="header-left">
-                <a href="#">
+                <a href="index.html">
                   <img src="assets/img/logo-1.svg" alt="logo" />
                 </a>
               </div>
               <div class="header-right">
                 <div class="header-right-left">
-                  <a href="#" class="manuka">
+                  <a href="readers.html" class="manuka">
                     <img src="assets/img/read-icon.svg" alt="read-icon" />
                     READ
                   </a>
@@ -137,31 +167,40 @@
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
                           <div class="hmc-content">
-                            <img src="assets/img/home-card-img-4.png" alt="">
+                            <img src="assets/img/home-card-img-4.png" alt="" />
                             <div class="hmc-text-box">
-                              <h3 class="menuka">SECOND ORPHEUS</h3>
-                              <p>My heart is a symphony, but it plays a mournful tune since the day she left me.</p>
+                              <h3 class="manuka">SECOND ORPHEUS</h3>
+                              <p>
+                                My heart is a symphony, but it plays a mournful
+                                tune since the day she left me.
+                              </p>
                             </div>
                           </div>
-                        </div> 
+                        </div>
                         <div class="swiper-slide">
                           <div class="hmc-content">
-                            <img src="assets/img/home-card-img-4.png" alt="">
+                            <img src="assets/img/home-card-img-4.png" alt="" />
                             <div class="hmc-text-box">
-                              <h3 class="menuka">SECOND ORPHEUS</h3>
-                              <p>My heart is a symphony, but it plays a mournful tune since the day she left me.</p>
+                              <h3 class="manuka">SECOND ORPHEUS</h3>
+                              <p>
+                                My heart is a symphony, but it plays a mournful
+                                tune since the day she left me.
+                              </p>
                             </div>
                           </div>
-                        </div> 
+                        </div>
                         <div class="swiper-slide">
                           <div class="hmc-content">
-                            <img src="assets/img/home-card-img-4.png" alt="">
+                            <img src="assets/img/home-card-img-4.png" alt="" />
                             <div class="hmc-text-box">
-                              <h3 class="menuka">SECOND ORPHEUS</h3>
-                              <p>My heart is a symphony, but it plays a mournful tune since the day she left me.</p>
+                              <h3 class="manuka">SECOND ORPHEUS</h3>
+                              <p>
+                                My heart is a symphony, but it plays a mournful
+                                tune since the day she left me.
+                              </p>
                             </div>
                           </div>
-                        </div> 
+                        </div>
                       </div>
                       <div class="swiper-pagination"></div>
                     </div>
@@ -169,7 +208,7 @@
                   <p>POWERED BY NEIL GAIMAN’S SANDMAN</p>
                   <div class="featured-head-mob">
                     <h5 class="manuka">FEATURED</h5>
-                    <div class="icons-grid-mob">
+                    <!-- <div class="icons-grid-mob">
                       <a href="#">
                         <img src="assets/img/read-icon.svg" alt="read-icon" />
                       </a>
@@ -179,7 +218,7 @@
                       <a href="#">
                         <img src="assets/img/play-icon.svg" alt="read-icon" />
                       </a>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
                 <a href="#">
@@ -233,7 +272,7 @@
                       <span>Subtitle or description</span>
                     </div>
                   </div>
-                </a>  </a>
+                </a>
                 <a href="#">
                   <div class="home-grid-left-card">
                     <img
@@ -266,16 +305,49 @@
         </div>
       </div>
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.0/swiper-bundle.min.js" integrity="sha512-v1aTkv65HxVIr09MzV6eMK2cdYDjS9SlIxxbkcKn3IpNMW2M8xZA5Q4ukp+PS6dMHzTLSxlis1VD6ocAP1Uxmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script>
-    var swiper = new Swiper(".home-slider", {
-      pagination: {
-        el: ".swiper-pagination",
-      },
-      autoplay: {
-        delay: 3000
-      }
-    });
-  </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.0/swiper-bundle.min.js"
+      integrity="sha512-v1aTkv65HxVIr09MzV6eMK2cdYDjS9SlIxxbkcKn3IpNMW2M8xZA5Q4ukp+PS6dMHzTLSxlis1VD6ocAP1Uxmg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      var swiper = new Swiper(".home-slider", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        autoplay: {
+          delay: 3000,
+        },
+      });
+      const openHeader = () => {
+        $(".header-menu-icon").css({
+          display: "none",
+        });
+        $(".header-close-icon").css({
+          display: "flex",
+        });
+        $(".header-mob").css({
+          display: "flex",
+        });
+      };
+      const closeHeader = () => {
+        $(".header-menu-icon").css({
+          display: "flex",
+        });
+        $(".header-close-icon").css({
+          display: "none",
+        });
+        $(".header-mob").css({
+          display: "none",
+        });
+      };
+    </script>
   </body>
 </html>

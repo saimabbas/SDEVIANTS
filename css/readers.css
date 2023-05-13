@@ -1,0 +1,82 @@
+.readers-main .box {
+  max-width: 1000px;
+}
+.readers-main {
+  width: 100%;
+  background-color: #0b0a0a;
+}
+.readers-margin {
+  width: 100%;
+  height: 1.5rem;
+}
+.header-fixed {
+  padding: 1.5rem 3.5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(11, 10, 10, 0.85);
+  z-index: 1000;
+}
+.header-fixed header {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.readers-hero {
+  width: 100%;
+}
+.readers-hero img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: relative;
+  z-index: 10;
+}
+.readers-hero div {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 11;
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.readers-hero div h1 {
+  color: #fff;
+  font-size: 10rem;
+}
+.readers-hero div p {
+  color: #fff;
+  font-size: 1.85rem;
+}
+.readers-img-box {
+  width: 100%;
+}
+.readers-img-box img {
+  width: 100%;
+  object-fit: cover;
+}
+.readers-img-box p {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 3.5rem auto;
+  max-width: 750px;
+  font-weight: 300;
+  padding: 0 2rem;
+}
+@media screen and (max-width: 750px) {
+  .header-fixed {
+    padding: 0;
+  }
+  .readers-hero div h1 {
+    font-size: 6.5rem;
+  }
+  .readers-hero div p {
+    font-size: 1.5rem;
+  }
+  .readers-img-box p {
+    margin: 2rem auto;
+  }
+}

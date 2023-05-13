@@ -188,6 +188,7 @@
   }
   .home-grid {
     grid-template-columns: 1fr;
+    margin: 0;
   }
   .home-grid-left {
     order: 2;
