@@ -79,4 +79,8 @@
   .readers-img-box p {
     margin: 2rem auto;
   }
+  .readers-hero img {
+    height: 50vh;
+    object-fit: cover;
+  }
 }
