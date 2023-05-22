@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S.DEVIANTS</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.0/swiper-bundle.min.css"
+      integrity="sha512-wF3D+4OrUPUvdj1tzykEtIVe1dXB5N2uB0ONqkB47AoR3A1TNdPlbPKx9BPRorrZth3wzFuqdUlwuG0RBLK2og=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/play.css" />
+  </head>
+  <body>
+    <main class="deviants-app">
+      <div class="play-main">
+        <div class="header-fixed">
+          <header>
+            <div
+              class="header-mob-icon header-menu-icon"
+              onclick="openHeader()"
+            >
+              <span class="material-symbols-outlined"> menu </span>
+            </div>
+            <div
+              class="header-mob-icon header-close-icon"
+              onclick="closeHeader()"
+            >
+              <span class="material-symbols-outlined"> close </span>
+            </div>
+            <div class="header-mob">
+              <a href="readers.html" class="manuka">
+                <img src="assets/img/read-icon.svg" alt="read-icon" />
+                READ
+              </a>
+              <a href="#" class="manuka">
+                <img src="assets/img/create-icon.svg" alt="read-icon" />
+                CREATE
+              </a>
+              <a href="#" class="manuka">
+                <img src="assets/img/play-icon.svg" alt="read-icon" />
+                PLAY
+              </a>
+              <a href="#">USER ACCOUNT STUFF HERE</a>
+            </div>
+            <div class="header-left">
+              <a href="index.html">
+                <img src="assets/img/logo-1.svg" alt="logo" />
+              </a>
+            </div>
+            <div class="header-right">
+              <div class="header-right-left">
+                <a href="readers.html" class="manuka">
+                  <img src="assets/img/read-icon.svg" alt="read-icon" />
+                  READ
+                </a>
+                <a href="#" class="manuka">
+                  <img src="assets/img/create-icon.svg" alt="read-icon" />
+                  CREATE
+                </a>
+                <a href="#" class="manuka">
+                  <img src="assets/img/play-icon.svg" alt="read-icon" />
+                  PLAY
+                </a>
+              </div>
+              <div class="header-right-right">
+                <a href="#"
+                  >USER ACCOUNT <br />
+                  STUFF HERE</a
+                >
+              </div>
+            </div>
+          </header>
+        </div>
+        <div class="play-top">
+          <div class="box">
+            <div class="play-top-grid">
+              <div class="play-top-grid-left">
+                <p>
+                  Play tentpole stories to level up and max out your own
+                  personal character. Your experiences are captured in
+                  custom-generated narratives. Your choices (disposition, gear,
+                  etc.) directly affect the outcome.
+                </p>
+                <div class="play-top-inner-grid">
+                  <div class="play-top-inner-grid-left">
+                    <img src="/assets/img/play-top-img.png" alt="play" />
+                    <p>James Wick, LV: 1</p>
+                  </div>
+                  <div class="play-top-inner-grid-right">
+                    <div class="play-customize-tab">
+                      <h3>CUSTOMIZE</h3>
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <div class="customize-flex">
+                        <h5>AGREESSION</h5>
+                        <h5>7</h5>
+                      </div>
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <input class="play-range" type="range" name="" id="" />
+
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <h5>WEAPONS</h5>
+                      <div class="play-margin"></div>
+                      <div class="play-select">
+                        <span class="material-symbols-outlined">
+                          arrow_drop_down
+                        </span>
+                        <select name="" id="">
+                          <option value="">KATANA BLADE</option>
+                          <option value="">SWORD</option>
+                          <option value="">GUN</option>
+                        </select>
+                      </div>
+
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <h5>ARMOR</h5>
+                      <div class="play-margin"></div>
+                      <div class="play-select">
+                        <span class="material-symbols-outlined">
+                          arrow_drop_down
+                        </span>
+                        <select name="" id="">
+                          <option value="">BRACERS</option>
+                          <option value="">SWORD</option>
+                          <option value="">GUN</option>
+                        </select>
+                      </div>
+
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <h5>ITEMS</h5>
+                      <div class="play-margin"></div>
+                      <div class="play-select">
+                        <span class="material-symbols-outlined">
+                          arrow_drop_down
+                        </span>
+                        <select name="" id="">
+                          <option value="">TUXEDO</option>
+                          <option value="">SWORD</option>
+                          <option value="">GUN</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="play-customize-tab">
+                      <h3>STATS</h3>
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <div class="customize-flex">
+                        <h5>EXPERIENCE</h5>
+                        <h5>10/100</h5>
+                      </div>
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <div class="play-prog">
+                        <div style="width: 10%" class="play-prog-inner"></div>
+                      </div>
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <div class="customize-flex">
+                        <h5>HEALTH</h5>
+                        <h5>8/10</h5>
+                      </div>
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <div class="play-prog">
+                        <div style="width: 80%" class="play-prog-inner"></div>
+                      </div>
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <div class="input-box">
+                        <h5>OFFENSE</h5>
+                        <div>
+                          <input value="16" type="text" />
+                        </div>
+                      </div>
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <div class="input-box">
+                        <h5>DEFENSE</h5>
+                        <div>
+                          <input value="15" type="text" />
+                        </div>
+                      </div>
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <div class="input-box">
+                        <h5>MONEY</h5>
+                        <div>
+                          <span>$</span>
+                          <input value="5" type="text" />
+                        </div>
+                      </div>
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <button class="manuka">RESET</button>
+                      <div class="play-margin"></div>
+                      <div class="play-margin"></div>
+                      <button class="manuka">SAVE SETTINGS</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="play-top-grid-right">
+                <div class="ptgr-box">
+                  <h5>CHARACTERS</h5>
+                  <div class="play-margin"></div>
+                  <div class="characters-card">
+                    <img
+                      src="/assets/img/character-img-1.png"
+                      alt="character"
+                    />
+                    <p>Character</p>
+                    <p>LV:1</p>
+                  </div>
+                  <div class="play-margin"></div>
+                  <div class="characters-card">
+                    <img
+                      src="/assets/img/character-img-1.png"
+                      alt="character"
+                    />
+                    <p>Character</p>
+                    <p>LV:1</p>
+                  </div>
+                  <div class="play-margin"></div>
+                  <div class="characters-card">
+                    <img
+                      src="/assets/img/character-img-1.png"
+                      alt="character"
+                    />
+                    <p>Character</p>
+                    <p>LV:1</p>
+                  </div>
+                </div>
+
+                <div class="ptgr-box">
+                  <h5>FRIENDS</h5>
+                  <div class="play-margin"></div>
+                  <div class="characters-card">
+                    <img
+                      src="/assets/img/character-img-1.png"
+                      alt="character"
+                    />
+                    <p>Character</p>
+                    <p>LV:1</p>
+                  </div>
+                  <div class="play-margin"></div>
+                  <div class="characters-card">
+                    <img
+                      src="/assets/img/character-img-1.png"
+                      alt="character"
+                    />
+                    <p>Character</p>
+                    <p>LV:1</p>
+                  </div>
+                  <div class="play-margin"></div>
+                  <div class="characters-card">
+                    <img
+                      src="/assets/img/character-img-1.png"
+                      alt="character"
+                    />
+                    <p>Character</p>
+                    <p>LV:1</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="play-story">
+          <div class="box">
+            <h3 class="manuka play-head">UNPLAYED STORIES</h3>
+            <div class="play-slider">
+              <div class="swiper play-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="play-swiper-card">
+                      <img src="/assets/img/home-card-img-1.png" alt="" />
+                      <p>ORPHEUS EXHILED</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="play-swiper-card">
+                      <img src="/assets/img/home-card-img-1.png" alt="" />
+                      <p>ORPHEUS EXHILED</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="play-swiper-next">
+                  <span class="material-symbols-outlined"> arrow_right </span>
+                </div>
+                <div class="play-swiper-prev">
+                  <span class="material-symbols-outlined"> arrow_left </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="play-story">
+          <div class="box">
+            <h3 class="manuka play-head">JAMES WICK STORIES</h3>
+            <div class="play-slider">
+              <div class="swiper play-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="play-swiper-card">
+                      <img src="/assets/img/home-card-img-1.png" alt="" />
+                      <p>ORPHEUS EXHILED</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="play-swiper-card">
+                      <img src="/assets/img/home-card-img-1.png" alt="" />
+                      <p>ORPHEUS EXHILED</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="play-swiper-card">
+                      <img src="/assets/img/home-card-img-1.png" alt="" />
+                      <p>ORPHEUS EXHILED</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="play-swiper-card">
+                      <img src="/assets/img/home-card-img-1.png" alt="" />
+                      <p>ORPHEUS EXHILED</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="play-swiper-card">
+                      <img src="/assets/img/home-card-img-1.png" alt="" />
+                      <p>ORPHEUS EXHILED</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="play-swiper-card">
+                      <img src="/assets/img/home-card-img-1.png" alt="" />
+                      <p>ORPHEUS EXHILED</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="play-swiper-card">
+                      <img src="/assets/img/home-card-img-1.png" alt="" />
+                      <p>ORPHEUS EXHILED</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="play-swiper-card">
+                      <img src="/assets/img/home-card-img-1.png" alt="" />
+                      <p>ORPHEUS EXHILED</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="play-swiper-card">
+                      <img src="/assets/img/home-card-img-1.png" alt="" />
+                      <p>ORPHEUS EXHILED</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="play-swiper-card">
+                      <img src="/assets/img/home-card-img-1.png" alt="" />
+                      <p>ORPHEUS EXHILED</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="play-swiper-card">
+                      <img src="/assets/img/home-card-img-1.png" alt="" />
+                      <p>ORPHEUS EXHILED</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="play-swiper-card">
+                      <img src="/assets/img/home-card-img-1.png" alt="" />
+                      <p>ORPHEUS EXHILED</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="play-swiper-next">
+                  <span class="material-symbols-outlined"> arrow_right </span>
+                </div>
+                <div class="play-swiper-prev">
+                  <span class="material-symbols-outlined"> arrow_left </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.0/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      var swiper = new Swiper(".play-swiper", {
+        navigation: {
+          nextEl: ".play-swiper-next",
+          prevEl: ".play-swiper-prev",
+        },
+        slidesPerView: "auto",
+        spaceBetween: 25,
+      });
+      const openHeader = () => {
+        $(".header-menu-icon").css({
+          display: "none",
+        });
+        $(".header-close-icon").css({
+          display: "flex",
+        });
+        $(".header-mob").css({
+          display: "flex",
+        });
+      };
+      const closeHeader = () => {
+        $(".header-menu-icon").css({
+          display: "flex",
+        });
+        $(".header-close-icon").css({
+          display: "none",
+        });
+        $(".header-mob").css({
+          display: "none",
+        });
+      };
+    </script>
+  </body>
+</html>

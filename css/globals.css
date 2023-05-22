@@ -163,6 +163,20 @@ header {
 .header-mob > a:not(:last-child) {
   margin: 0 0 2.5rem 0;
 }
+
+.header-fixed {
+  padding: 1.5rem 3.5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(11, 10, 10, 0.85);
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+.header-fixed header {
+  max-width: 1250px;
+  margin: 0 auto;
+}
 @media screen and (max-width: 1000px) {
   .home-main-bg {
     display: none;
@@ -181,6 +195,9 @@ header {
   }
 }
 @media screen and (max-width: 750px) {
+  .header-fixed {
+    padding: 0;
+  }
   .header-right {
     display: none;
   }

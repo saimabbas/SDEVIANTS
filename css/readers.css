@@ -9,18 +9,6 @@
   width: 100%;
   height: 1.5rem;
 }
-.header-fixed {
-  padding: 1.5rem 3.5rem;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  background-color: rgba(11, 10, 10, 0.85);
-  z-index: 1000;
-}
-.header-fixed header {
-  max-width: 1250px;
-  margin: 0 auto;
-}
 .readers-hero {
   width: 100%;
 }
@@ -67,9 +55,6 @@
   padding: 0 2rem;
 }
 @media screen and (max-width: 750px) {
-  .header-fixed {
-    padding: 0;
-  }
   .readers-hero div h1 {
     font-size: 6.5rem;
   }
