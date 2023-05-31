@@ -1,0 +1,150 @@
+.noirworld-main .box {
+  max-width: 1300px;
+  padding: 0 3.5rem;
+}
+.noirworld-main {
+  width: 100%;
+  background-color: #0b0a0a;
+}
+.noir-world {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 85vh;
+}
+.noir-world img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 9;
+  position: relative;
+}
+.noir-world h2 {
+  font-size: 10rem;
+  position: absolute;
+  bottom: 2.5rem;
+  left: 15%;
+  z-index: 10;
+  color: #6aafc7;
+}
+.explore-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.5rem 0;
+}
+.explore-box h3 {
+  font-size: 4.5rem;
+  color: #fff;
+}
+.explore-box a {
+  font-size: 3.5rem;
+  color: #fff;
+  opacity: 0.75;
+  margin: 0 0 0 3.5rem;
+  transition: 0.35s;
+}
+.explore-box a:hover {
+  opacity: 1;
+}
+.explore-box div {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.home-grid-left-card {
+  width: 100%;
+  height: max-content;
+  background-color: #1a1617;
+  position: relative;
+  transition: 0.35s;
+}
+.home-grid-left-card:hover {
+  background-color: #000;
+}
+
+.home-grid-left-card img {
+  width: 100%;
+  max-height: 29.5rem;
+  object-fit: cover;
+}
+.home-grid-left-card > div {
+  width: 100%;
+  padding: 1rem 1.5rem;
+}
+.home-grid-left-card h6 {
+  font-size: 1.5rem;
+  color: #fff;
+  opacity: 0.75;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.home-grid-left-card span {
+  font-size: 1rem;
+  color: #ec5767;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.explore-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 2.5rem;
+  padding: 0 0 5rem 0;
+}
+@media screen and (max-width: 1150px) {
+  .explore-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .noir-world h2 {
+    font-size: 7.5rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .explore-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .noir-world h2 {
+    font-size: 6.5rem;
+    left: 10%;
+  }
+  .explore-box a {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .explore-grid {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 0 2rem 0;
+
+    grid-gap: 1.5rem;
+  }
+  .noir-world h2 {
+    font-size: 6.5rem;
+    left: 2rem;
+  }
+  .noirworld-main .box {
+    max-width: 1300px;
+    padding: 2rem;
+  }
+  .explore-box {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.5rem 0;
+  }
+  .explore-box div {
+    width: 100%;
+    margin: 1rem 0 0 0;
+    justify-content: flex-start;
+  }
+  .explore-box div a {
+    margin: 0 2.5rem 0 0;
+  }
+  .noir-world {
+    height: 65vh;
+  }
+}
